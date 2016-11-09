@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Refresh" content="2;url=portada.html">
 	<title>Lyft-demo</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link rel="shortcut icon" href="image/lyft-icono.ico">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/portada.css">
 </head>
-<body>
-	<section class="load">
+<body class="portada" id="portada">
+	<div class="container-fluid">
 		<div class="row">
+			<img src="image/logo-01.png" class="logo logoColor">
 			<div class="col-xs-12">
-				<img src="image/logo-02.png" class="logoBlanco">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<button class="btnPortada" id="btnLogIn">Log in</button>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<button class="btnPortada btnFondo" id="btnSignUp"><a href="SignUp.html">Sign up</a></button>
+				</div>	
 			</div>
 		</div>
-	</section>
-
+	</div>
+	
 	<!--script-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
