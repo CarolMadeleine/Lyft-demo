@@ -11,9 +11,10 @@
 /*LOADING*/
 .load{
 	background-image: url(../image/fondo-03.png);
-	background-size: cover;
-	padding: 32% 30%;
-	text-align: center;
+  background-size: cover;
+  padding: 70% 30%;
+  text-align: center;
+  height: 100vh;
 }
 .logoBlanco{
 	width: 50%;
