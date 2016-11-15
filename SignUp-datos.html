@@ -7,30 +7,48 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link rel="shortcut icon" href="image/lyft-icono.ico">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/signUp-datos.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/signUp.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
 	<header>
 		<div class="container-fluid">
-			<a href="SignUp.html"><i class="glyphicon glyphicon-chevron-left iconBack" id="iconBack" aria-hidden="true"></i></a>
+			<a href="SignUp.html"><span class="icon-chevron-left iconBack" id="iconBack"></span></a>
 			<h2>Sing Up</h2>
 			<h4>Join now for free ride credit</h4>
 		</div>
 			<div class="linea"></div>
 	</header>
 	<section class="signUp" id="signUp">
-		<div class="container">
-			<input type="text" class="form-control su-padd inputSingUp persona" id="inputSingUp" placeholder="First Name">
-			<input type="text" class="form-control su-padd inputSingUp persona" id="inputSingUp" placeholder="Last Name">
-			<input type="text" class="form-control su-padd inputSingUp mensaje" id="inputSingUp" placeholder="Email">
-			<h4>We´ll senda text to verify you phone</h4>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-2 icoContenedor">
+					<span class="icon-user icono"></span>
+				</div>
+				<div class="col-xs-5 inputEmail">
+					<input type="text" class="form-control input-su" placeholder="First Name" aria-describedby="sizing-addon1">
+				</div>
+				<div class="col-xs-5 inputName">
+					<input type="text" class="form-control input-su" placeholder="Last name" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2 icoContenedor">
+					<span class="icon-mail icono"></span>
+				</div>
+				<div class="col-xs-10 inputEmail">
+					<input type="text" class="form-control input-su" placeholder="First Name" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+			<div class="terminos">
+				<input type="checkbox" aria-label="...">
+				<p>I agree to Lyft´s</p><span class="terms">Terms of Service</span>
+			</div>
 		</div>
 	</section>
 	<footer>
-		<a href=""><button class="btnSignUp" id="btnNext">Next</button></a>
+		<a href="mapa.html"><button class="btnSignUp" id="btnNext">Next</button></a>
 	</footer>
 
 

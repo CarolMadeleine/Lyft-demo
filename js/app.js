@@ -1,3 +1,29 @@
+$(document).ready(function() {
+  $(".load").fadeOut(8000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // window.addEventListener("load", function(){
 // 	var portada = document.getElementById("portada");
 // 	var btnLogIn = document.getElementById("btnLogIn");

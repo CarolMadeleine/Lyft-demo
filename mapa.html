@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lyft-demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="shortcut icon" href="image/lyft-icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mapa.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+	<section class="infoMapa">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="circuloIcono">
+						<a href="#" data-activates="slide-out" class="button-collapse"><span class="icon-user cirIcon"></span></a>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<img src="image/logo-02.png" alt="" class="logoMapa">
+				</div>
+				<div class="col-xs-3">
+					<div class="circuloIcono">
+						<span class="icon-gift cirIcon"></span>
+					</div>
+				</div>
+			</div>
+			<div class="botonesMapa">
+				<button class="direccion"></button>
+				<button class="set">Set Pickup</button>
+			</div>
+		</div>
+	</section>
+	<div id="map"></div>
+	<section class="menuLateral">
+	  <ul id="slide-out" class="side-nav">
+	    <div class="infoFoto">
+	    	<div class="contenedorFoto">
+	    		<img src="image/perfil.jpg" alt="" class="foto">
+	    	</div>
+	    	<h3>Nombre</h3>
+	    	<p>View Profile</p>
+	    </div>
+	    <li><div class="conIcon"><a href="#!"><span class="icon-location icoMenu"></span>Home</a></div></li>
+	    <li><div class="divider"></div></li>
+	    <li><div class="conIcon"><span class="icon-gift icoMenu"></span>Free Rides</div></li>
+	    <li><div class="divider"></div></li>
+	    <li><div class="conIcon"><span class="icon-history icoMenu"></span>Ride History</div></li>
+	    <li><div class="divider"></div></li>
+	    <li><div class="conIcon"><span class="icon-creditcard icoMenu"></span>Payment</div></li>
+	    <li><div class="divider"></div></li>
+	    <li><div class="conIcon"><span class="icon-home icoMenu"></span>Help</div></li>
+	    <li><div class="divider"></div></li>
+	    <li><div class="conIcon"><span class="icon-settings icoMenu"></span>Settings</div></li>
+	    <li><div class="divider"></div></li>
+	    <div class="conIconDrive colorDrive"><span class="icon-meter2 icoMenu"></span>Sing up to drive</div>
+	  </ul>
+  </section>
+	
+
+
+	<!--script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChJ65wsaMhPRFc_5jB3EZbC2_ITqIgpTU&signed_in=true&callback=initMap" async defer>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/mapa.js"></script>
+</body>
+</html>

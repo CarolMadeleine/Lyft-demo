@@ -6,6 +6,21 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/*LOADING*/
+.load{
+  background-image: url(../image/fondo-03.png);
+  background-size: cover;
+  padding: 70% 30%;
+  text-align: center;
+  height: 100vh;
+  position: absolute;
+  z-index: 20;
+}
+.logoBlanco{
+  width: 50%;
+  margin:auto;
+}
+
 /*PORTADA*/
 .portada{
 	background-image: url(../image/portada.jpg);

@@ -1,12 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+.contenedorBanderas{
+	padding: 12px;
+}
+.bandera{
+	width: 3rem;
+	margin-right: 8px;
 }
 
-/*SIGN UP*/
-.iconDown{
-	font-size: 24px;
+.persona{
+	background-image: url(../image/png/usuario.png);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 12px 13px;
+}
+.mensaje{
+	background-image: url(../image/png/email.png);
+	background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 12px 13px;
+}
+.su-padd{
+ 	padding: 16px 0px 16px 36px;
+}
+.icono{
+	font-size: 2.6rem;
+}
+.icoContenedor{
+	padding-left: 20px;
+}
+.input-su{
+	font-size: 1.6rem;
+}
+.inputName{
+	padding: 0 24px 10px 0;
+}
+.inputEmail{
+	padding: 0 24px 10px 0px;
+}
+
+/*TERMINOS*/
+.terminos{
+	text-align: center;
+	margin: 20px 0;
+}
+p{
+	display: inline-block;
+}
+.terms{
+	color: #2DACE3;
+	margin-left: 10px;
 }
